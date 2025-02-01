@@ -1,0 +1,10 @@
+.pageHeader {
+  padding: 20px;
+}
+
+.pageContainer {
+  display: flex;
+  height:auto;
+  margin: 0 auto;
+  padding: 20px;
+}

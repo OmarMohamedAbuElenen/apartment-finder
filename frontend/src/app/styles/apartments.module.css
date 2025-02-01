@@ -1,0 +1,17 @@
+.pageContainer {
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 20px;
+}
+
+.apartmentscontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  @media (max-width: 768px) { 
+   .apartmentscontainer {
+       grid-template-columns: repeat(1, 1fr);
+   }
+}

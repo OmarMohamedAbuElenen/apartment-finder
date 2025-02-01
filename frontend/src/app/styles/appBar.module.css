@@ -1,0 +1,14 @@
+.searchInputContainer {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    margin-inline-start:20px;
+}
+
+  @media (max-width: 768px) { 
+   .searchInputContainer {
+       max-width: 200px;
+       margin-inline-start:10px;
+   }
+}
